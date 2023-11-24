@@ -21,9 +21,11 @@ const modal = createWeb3Modal({ wagmiConfig, projectId, chains })
 
 
 function connect() {
-      modal.open()   
+      modal.open();   
   }
 
   const btnEl = document.getElementById('btn');
 
 btnEl?.addEventListener('click', connect)
+
+
