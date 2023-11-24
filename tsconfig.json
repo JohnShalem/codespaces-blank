@@ -9,6 +9,12 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "strict": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true 
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true,
+    "allowSyntheticDefaultImports": true 
   }
 }
